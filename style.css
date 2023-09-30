@@ -1,0 +1,131 @@
+/* Style for the header */
+header {
+    background-color: #fff; /* Set background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-bottom: 1px solid #ccc; /* Add a border at the bottom */
+}
+
+/* Style for the left section */
+.left {
+    display: flex;
+    align-items: center;
+}
+
+
+.left img {
+    width: 60px; /* Set width of the images */
+    height: 30px; /* Set height of the images */
+    margin-right: 10px; /* Add some space between the images */
+}
+
+/* Style for the mid section */
+.mid {
+    display: flex;
+    align-items: center;
+}
+
+.mid input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a border around the input field */
+    border-radius: 20px; /* Add some border radius */
+    margin-right: 10px; /* Add some space between the input and images */
+}
+
+.mid img {
+    width: 30px; /* Set width of the images */
+    height: 30px; /* Set height of the images */
+}
+
+/* Style for the right section */
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    width: 30px; /* Set width of the images */
+    height: 30px; /* Set height of the images */
+    margin-left: 10px; /* Add some space between the images */
+}
+/* Style for the tags container */
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin as needed */
+}
+
+/* Style for individual tags */
+.tag {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style for the "All" tag */
+.tag.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style for other tags */
+.tag.light {
+    background-color: #f5f5f5;
+    color: #333;
+}
+/* Style for the vertical container */
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f5f5f5; /* Add a background color if desired */
+    padding: 10px; /* Add padding as needed */
+}
+
+/* Style for the individual links */
+.vertical a {
+    text-decoration: none; /* Remove the default underline on links */
+    color: #333; /* Set the link color */
+    text-align: center; /* Center the text */
+    margin-top: 5px; /* Add some space between the image and text */
+}
+
+/* Style for individual images */
+.vertical img {
+    width: 40px; /* Set the width of the images */
+    height: 40px; /* Set the height of the images */
+}
+
+/* Style for the text */
+.vertical p {
+    margin: 0; /* Remove any default margin */
+    font-size: 14px; /* Set the font size for the text */
+}
+/* Style for the center container */
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Add some space between images */
+    padding: 20px; /* Add padding as needed */
+    background-color: #f5f5f5; /* Add a background color if desired */
+}
+
+/* Style for individual thumbnails */
+.center img {
+    width: 200px; /* Set the width of the thumbnails */
+    height: 120px; /* Set the height of the thumbnails */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    border-radius: 10px; /* Add some border radius for rounded corners */
+}
+.main{
+    display: flex;
+}
+
+
